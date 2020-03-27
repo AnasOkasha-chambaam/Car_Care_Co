@@ -1,0 +1,298 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+*:hover {
+    outline: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+.logo-color {
+    color: rgb(208, 245, 0) ;
+}
+
+/* home css */
+
+.container {
+    background-color: rgb(19, 19, 19);
+    overflow: hidden;
+    /* text-align: center; */
+}
+
+.container .contents {
+    color: rgb(233, 233, 233) ;
+    max-width: 950px;
+    margin: auto;
+}
+
+.container .contents h1 {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.container .contents h1 a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+.container .contents ul {
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+}
+
+.container .contents ul li {
+    float: left;
+    height: 100%;
+}
+
+.container .contents ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    padding: 20px 15px;
+    font-size: 18px;
+    margin: 0px 1px
+}
+
+.container .contents ul li a:hover {
+    color: rgb(208, 245, 0);
+    background-color: rgb(39,39,39);
+}
+
+.container .contents ul li a:active {
+    background: rgb(208, 245, 0);
+    color:white !important;
+}
+
+.active {
+    color: rgb(208, 245, 0) !important;
+    background-color: rgb(39,39,39);
+}
+
+.min-section {
+    margin: auto !important;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.199) !important; */
+    background-image: url('../pexels-imgs/min-section-background.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;    
+    /* max-width: 667px; */
+    color:rgb(255, 255, 255);
+
+}
+
+.min-section .min-section-text {
+    margin: auto;
+    text-align: center;
+    /* line-height: 1.9em; */
+    /* font-style:  */
+}
+
+.min-section .min-section-text h1 {
+    font-size: 70px;
+    margin-top: 100px;
+    
+}
+
+.min-section .min-section-text p {
+    font-size: 24px;
+    padding: 30px 200px 0px 200px; 
+    /* text-align: justify; */
+
+}
+
+.min-section .min-section-text .min-section-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 20px 20px;
+
+}
+
+.min-section .min-section-text .min-section-btn:hover {
+    color: black;
+    background-color: rgba(208, 245, 0, 0.568);
+}
+
+/* .min-section .min-section-text .min-section-btn:active {
+    color: rgb(208, 245, 0);
+    background-color: rgb(233, 233, 233);
+} */
+
+.sec-section {
+    text-align: center;
+    height: 400px;
+    
+}
+
+.sec-section .sec-section-text {
+    background-color: rgb(22, 19, 24);
+    color: white;
+    float: left;  
+    width: 50%;
+    height: 100%;
+    
+}
+
+.sec-section .sec-section-text h1 {
+    margin: 20px;
+}
+
+.sec-section .sec-section-text p {
+    display: block;
+    font-size: 25px;
+    float: none;
+    /* line-height: 1.8rem; */
+    margin: 15px 70px;
+    /* text-align: left; */
+}
+
+.sec-section .sec-section-img {
+    display: block !important;
+    background: url('../pexels-imgs/sec-section-img.jpeg') no-repeat center center;
+    background-size: cover;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+
+.thi-section {
+    text-align: center;
+    height: 350px;
+}
+
+.thi-section .thi-section-text {
+    float: left;
+    width: 33.3%;
+    background: #ddd;
+    height: 100%;
+
+}
+
+.thi-section .thi-section-text h1 {
+    font-size: 35px;
+    margin: 30px 0px;
+}
+
+.thi-section .thi-section-text p {
+    font-size: 25px;
+
+}
+
+#center-text {
+    background-color: rgb(171, 201, 0);
+    color: white;
+    font-weight: bold;
+}
+
+/* finished */
+
+/* about css */
+
+.about-min-section {
+    height: 400px;
+    background: white;
+    padding:25px;
+    overflow: hidden;
+}
+
+.about-min-section .about-min-section-text {
+    float: left;
+    width:50%;
+    padding: 40px 0px 20px 60px;
+
+}
+
+.about-min-section .about-min-section-text h1 {
+    font-size: 40px;
+    margin-bottom: 30px
+}
+
+.about-min-section .about-min-section-text p {
+    font-size: 30px;
+}
+
+.about-min-section .about-min-section-img {
+    background: url('../pexels-imgs/About-min-section-img.jpeg') no-repeat center center/cover;
+    float: right;
+    width: 45%;
+    min-height: 100%;
+    border-radius: 50%;
+}
+
+.customers {
+    background: url('../pexels-imgs/about-img.jpg') no-repeat center center/cover;
+    min-height: 800px;
+}
+
+.customers .cust-container {
+    margin: auto;
+    max-width: 1100px;
+    /* margin: 20px 100px; */
+}
+.customers .cust-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    
+}
+
+.customers .cust-container .customer {
+    background: rgb(208, 245, 0);
+    display: block;
+    opacity: 0.8;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.4em;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    /* width: 100px; */
+    
+}
+
+.customers .cust-container .customer img {
+    width:100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/* #person-1 {
+    float: left;
+    width: 100px;
+    display: block;
+    height: 20px;
+
+} */
+/* finished */
+
+.footer {
+    text-align: center;
+    background: rgb(29, 29, 29);
+    color: white;
+    padding: 10px;
+}
+
+.footer p {
+    font-weight: bold;
+}
